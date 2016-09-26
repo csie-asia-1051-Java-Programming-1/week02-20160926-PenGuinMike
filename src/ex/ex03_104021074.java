@@ -16,25 +16,18 @@ public class ex03_104021074 {
 		System.out.print("請輸入停車分鐘數:");
 		int m = scn.nextInt();
 		int x=(int) Math.floor(m/30);
-		System.out.print(x);
-		if(x<=1){
-			System.out.print("停車時間未超過30分鐘,不需繳費!!!");
-		}else{
-			if(x<4){
-			int mon = x*30;
-			System.out.print("停車費總共為:"+mon);}
-				else{
-					if(x>=4&&x<8){
-						int mon = x*40;
-						System.out.print("停車費總共為:"+mon);}
-					else{
-							if(x>=8){
-							int mon = x*60;
-							System.out.print("停車費總共為:"+mon);
-					}
-				}
-			}
+		//System.out.print(x);
+		if(x<4){
+			int mon= (x-1)*30;
+			System.out.print("停車費總共為:"+mon);
+		}else if(x>=4&&x<8){
+			int mon = (x-3)*40+60 ;
+			System.out.print("停車費總共為:"+mon);
+		}else if(x>=8){
+			int mon = (x-6)*60+160 ;
+			System.out.print("停車費總共為:"+mon);
 		}
+		
 	}
 
 }
