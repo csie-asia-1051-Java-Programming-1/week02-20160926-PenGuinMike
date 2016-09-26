@@ -16,7 +16,7 @@ public class ex03_104021074 {
 		System.out.print("請輸入停車分鐘數:");
 		int m = scn.nextInt();
 		int x=(int) Math.floor(m/30);
-		System.out.print(x);
+		//System.out.print(x);
 		if(x<=1){
 			System.out.print("停車時間未超過30分鐘,不需繳費!!!");
 		}else{
