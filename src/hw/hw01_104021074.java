@@ -34,7 +34,7 @@ public class hw01_104021074 {
 			//System.out.println("z3="+z3);
 			System.out.println("找錢總共為"+z+" \t"+"50元銅板有"+z1+"個"+"\t "+"5元銅板有"+z2+"個"+"\t "+"1元銅板有"+z3+"個");
 		}else{
-			System.out.println("小明的錢不夠RRRR（╯‵□′）╯︵┴─┴");
+			System.out.println("0	小明的錢不夠RRRR（╯‵□′）╯︵┴─┴");
 		}
 	}
 

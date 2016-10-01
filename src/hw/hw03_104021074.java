@@ -24,6 +24,8 @@ public class hw03_104021074 {
 				if(y%4==0&&y%400!=0&&y%100!=0){
 					System.out.println("此年是閏年!!!");
 				}
+			}else{
+				System.out.println("此年不是閏年!!!");
 			}
 			
 	}
